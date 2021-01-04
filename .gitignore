@@ -1,0 +1,7 @@
+train_image
+test_image
+**/__pycache__/
+**/.idea
+env
+facenet_model
+data

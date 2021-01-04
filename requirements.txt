@@ -1,0 +1,7 @@
+numpy
+opencv-python
+TensorFlow
+scipy
+sklearn
+pickles
+keras-facenet
