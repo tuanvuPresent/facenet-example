@@ -4,4 +4,4 @@ test_image
 **/.idea
 env
 facenet_model
-data
+data.plk

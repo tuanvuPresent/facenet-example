@@ -14,7 +14,7 @@ def train(folder):
             if len(detections) > 0:
                 e1 = detections[0].get('embedding')
                 data[str(label)].append(e1)
-    with open('data', 'wb') as file:
+    with open('data.plk', 'wb') as file:
         pickle.dump(data, file)
     print('Train DONE...')
 

@@ -4,7 +4,7 @@ from recognizer_facenet import FaceRecognizerFaceNet
 
 if __name__ == '__main__':
     embedder = FaceRecognizerFaceNet()
-    with open('data', 'rb') as file:
+    with open('data.plk', 'rb') as file:
         data = pickle.load(file)
 
     print(embedder.predict_image('test_image/test.jpeg', data))
